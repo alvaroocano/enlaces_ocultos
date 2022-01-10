@@ -1,0 +1,26 @@
+li{
+	border: solid black 1px;
+	display: inline;
+}
+a{
+	text-decoration: none;
+	color:  blue;
+}
+@media screen and (max-width: 1200px) {
+  li.citroen {
+    visibility: hidden;
+  }
+
+@media screen and (max-width: 1024px) {
+  li.seat {
+    visibility: hidden;
+  }
+
+@media screen and (max-width: 768px) {
+  li.maserati {
+    visibility: hidden;
+  }
+ @media screen and (max-width: 480px) {
+  li.bentley {
+    visibility: hidden;
+  }
